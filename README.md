@@ -36,6 +36,7 @@ Currency-Converter/
 ├── style.css
 ├── app.js
 ├── codes.js
+├── photo.png
 └── README.md
 ```
 
