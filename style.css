@@ -7,7 +7,7 @@ h2{
     justify-self: center;
     align-self:center;
     font-size: 3rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     background: linear-gradient(to right,#00F5FF,hsl(300, 100%, 50%));
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
