@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    justify-self: center;
+    align-self:center;
+    font-size: 3rem;
+    background: linear-gradient(to right,#00F5FF,hsl(300, 100%, 50%));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+body{
+    background-color: #050816;
+    justify-self: center;
+    color: #FF2ED1;
+    align-self: center;
+    
+}
+
+.Box{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #050816;
+}
+.container{
+    background-color: #050816;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    min-height: 60vh;
+    width: 55vh;
+    border: 0.1rem solid #FF2ED1;
+    font-size: 1.5rem;
+}
+
+form{
+    margin: 2rem 0 2rem 0;
+}
+
+form select,button, input{
+    width: 100%;
+    border:none;
+    outline: none;
+    border-radius: 0.2rem;
+    background-color: #050816;
+    color: white;
+}
+.amount{
+    margin-bottom: 1rem;
+}
+form input{
+    border: 0.08rem solid #B0B0D1;
+    font-size: 1.5rem;
+    height: 3rem;
+    padding-left: 0.5rem ;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.from{
+    height: 5rem;
+    width: 8rem;
+    padding: 1rem;
+    border: 0.1rem solid #FF2ED1;
+    border-radius: 0.4rem;
+
+}
+
+.to{
+    height: 5rem;
+    width: 8rem;
+    padding: 1rem;
+    border: 0.1rem solid #00F5FF;
+    border-radius: 0.4rem;
+
+}
+
+.select-container img{
+    max-width: 4rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+}
+
+.select-container select{
+    font-size: 1.3rem;
+    width: auto;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+
+.msg p{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    border: 0.1rem solid #B0B0D1;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    color: #B0B0D1;
+}
+form button{
+    height: 3rem;
+    border: 0.1rem solid #00F5FF;
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+/* ── Tablets (≤ 768px) ── */
+@media (max-width: 768px) {
+    .container {
+        width: 90vw;
+        min-height: auto;
+        font-size: 1.3rem;
+    }
+    h2 {
+        font-size: 2.2rem;
+    }
+    .from, .to {
+        width: 6.5rem;
+        height: 5rem;
+        padding: 0.7rem;
+    }
+    .select-container {
+        width: 6.5rem;
+    }
+    .select-container img {
+        max-width: 3rem;
+    }
+    .select-container select {
+        font-size: 1.1rem;
+    }
+    form input {
+        font-size: 1.3rem;
+    }
+    .msg p {
+        font-size: 1.3rem;
+    }
+    form button {
+        font-size: 1.1rem;
+    }
+}
+
+/* ── Phones (≤ 480px) ── */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.7rem;
+    }
+    .Box {
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+    .container {
+        width: 95vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.1rem;
+    }
+    .from, .to {
+        width: 5.5rem;
+        height: 4.5rem;
+        padding: 0.5rem;
+    }
+    .select-container {
+        width: 5.5rem;
+    }
+    .select-container img {
+        max-width: 2.2rem;
+    }
+    .select-container select {
+        font-size: 0.95rem;
+    }
+    form input {
+        font-size: 1.1rem;
+        height: 2.6rem;
+    }
+    .msg p {
+        font-size: 1.1rem;
+        height: 4rem;
+    }
+    form button {
+        font-size: 1rem;
+        height: 2.6rem;
+    }
+}
+
+/* ── Very small phones (≤ 360px) ── */
+@media (max-width: 360px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+    .container {
+        width: 98vw;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+    .from, .to {
+        width: 4.8rem;
+        height: 4.2rem;
+        padding: 0.4rem;
+    }
+    .select-container {
+        width: 4.8rem;
+    }
+    .select-container img {
+        max-width: 1.8rem;
+    }
+    .select-container select {
+        font-size: 0.8rem;
+    }
+    .msg p {
+        font-size: 1rem;
+    }
+}
+
+/* ── Landscape phones ── */
+@media (max-height: 500px) and (orientation: landscape) {
+    .Box {
+        align-items: flex-start;
+        padding-top: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .container {
+        width: 60vw;
+        min-height: auto;
+    }
+    form {
+        margin: 1rem 0;
+    }
+    .dropdown {
+        margin-top: 1rem;
+    }
+    .msg {
+        margin: 1rem 0;
+    }
+}
