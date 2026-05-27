@@ -43,7 +43,7 @@ Currency-Converter/
 
 ## 📸 Preview
 
-<img width="800" alt="Currency Converter Preview" src="photo.png">
+<img width="600" alt="Currency Converter Preview" src="photo.png" >
 
 ---
 
