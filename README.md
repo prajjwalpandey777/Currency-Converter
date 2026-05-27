@@ -90,9 +90,11 @@ Country flags automatically change when currency changes.
 
 ---
 
-🚀 Live Demo
+## 🚀 Live Demo
 
 🔗 https://prajjwalpandey777.github.io/Currency-Converter/
+
+---
 
 ## 📱 Responsive Design
 
