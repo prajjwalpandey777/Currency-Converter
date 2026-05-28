@@ -90,9 +90,12 @@ Country flags automatically change when currency changes.
 
 ---
 
-## 🚀 Live Demo
+## 🌐 Live Website
 
-🔗 https://prajjwalpandey777.github.io/Currency-Converter/
+👉 Visit Here: [Currency Converter](https://currencyconverter-five-theta.vercel.app/)
+
+This project is a real-time currency converter website built using HTML, CSS, JavaScript, and API integration.
+
 
 ---
 
